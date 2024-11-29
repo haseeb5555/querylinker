@@ -1,0 +1,14 @@
+[package]
+name = "rust-cli-search"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+open = "3.0.3"
+urlencoding = "2.1"
+clipboard = "0.5"
+
+
+[[bin]]
+name = "rust-cli-search"
+path = "src/main.rs"

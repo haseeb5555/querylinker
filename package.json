@@ -1,0 +1,22 @@
+{
+  "name": "querylinker",
+  "version": "1.0.3",
+  "description": "CLI tool for searching Google, StackOverflow, ChatGPT, and Claude.",
+  "bin": {
+    "search": "./bin/search.js"
+  },
+  "scripts": {
+    "build": "cargo build --release",
+    "install": "cargo build --release "
+  },
+  "author": "Muhammad Haseeb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haseeb5555/querylinker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haseeb5555/querylinker/issues"
+  },
+  "homepage": "https://github.com/haseeb5555/querylinker"
+}
